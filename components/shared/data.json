@@ -1,0 +1,108 @@
+{
+  "appareils": [
+    {
+      "id": 1,
+      "name": "Réfrigirateur",
+      "powerWatt": 40,
+      "defaultQuantity": 1
+    },
+    {
+      "id": 2,
+      "name": "Congélateur",
+      "powerWatt": 160
+    },
+    {
+      "id": 3,
+      "name": "Lave-vaisselle",
+      "powerWatt": 1200,
+      "preferNight": true
+    },
+    {
+      "id": 4,
+      "name": "Micro-ondes",
+      "powerWatt": 1300
+    },
+    {
+      "id": 5,
+      "name": "Four",
+      "powerWatt": 2000
+    },
+    {
+      "id": 6,
+      "name": "Gaufrier",
+      "powerWatt": 1000
+    },
+    {
+      "id": 7,
+      "name": "Aspirateur",
+      "powerWatt": 1500
+    },
+    {
+      "id": 11,
+      "name": "Lave-linge",
+      "powerWatt": 2200,
+      "preferNight": true
+    },
+    {
+      "id": 12,
+      "name": "Sèche-linge",
+      "powerWatt": 2500,
+      "preferNight": true
+    },
+    {
+      "id": 13,
+      "name": "Fer à repasser",
+      "powerWatt": 750
+    },
+    {
+      "id": 8,
+      "name": "Chargeur de smartphone",
+      "powerWatt": 5,
+      "excludeFromDuel": true
+    },
+    {
+      "id": 9,
+      "name": "Ordinateur de bureau",
+      "powerWatt": 90
+    },
+    {
+      "id": 18,
+      "name": "Ordinateur de jeu",
+      "powerWatt": 400
+    },
+    {
+      "id": 10,
+      "name": "Téléviseur",
+      "powerWatt": 150
+    },
+    {
+      "id": 17,
+      "name": "Console de jeu",
+      "powerWatt": 100
+    },
+    {
+      "id": 14,
+      "name": "Ampoule à incandescence",
+      "powerWatt": 60,
+      "multiple": true,
+      "defaultQuantity": 0
+    },
+    {
+      "id": 15,
+      "name": "Ampoule à basse consommation",
+      "powerWatt": 12,
+      "multiple": true,
+      "defaultQuantity": 5
+    },
+    {
+      "id": 16,
+      "name": "Radiateur éléctrique",
+      "powerWatt": 50,
+      "multiple": true,
+      "quantityStep": 10,
+      "defaultQuantity": 0,
+      "unit": "m²",
+      "excludeFromDuel": true
+    }
+  ]
+}

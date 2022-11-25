@@ -1,0 +1,66 @@
+.ad__container {
+  height: 100px;
+}
+
+.ad__content {
+  position: fixed;
+  bottom: 0;
+  z-index: 200;
+  background: #fff;
+  width: 100%;
+  display: flex;
+  color: #000;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 0 20px;
+}
+
+.ad__content:before {
+  content: 'Publicité';
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  font-size: 13px;
+  font-weight: bold;
+  opacity: 0.6;
+  letter-spacing: 0.1em;
+}
+
+.ad__content--troll {
+  background: linear-gradient(297.44deg, #ff7557, #ffe49e 71.33%), #f87e50;
+  -background: linear-gradient(68.51deg, #a2d9f1 -30.92%, #e9ffdf 66.93%);
+}
+
+.ad__content.ad__content--troll a {
+  background: #fff;
+  color: #ff7557;
+  border: 2px solid #ff7557;
+  text-decoration: none;
+  font-size: 0.8em;
+}
+
+.ad__content img {
+  height: 60px;
+  width: auto;
+  margin-right: 20px;
+}
+
+.ad__content p {
+  margin: 0 0 0;
+}
+
+.ad__content a {
+  font-weight: bold;
+  border-radius: 5px;
+  background: #e7ce41;
+  color: #111;
+  padding: 10px 20px;
+  transition: 0.4s;
+  text-align: center;
+}
+
+.ad__content a:hover {
+  opacity: 0.7;
+}
